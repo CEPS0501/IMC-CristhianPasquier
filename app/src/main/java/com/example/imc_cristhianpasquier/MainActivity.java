@@ -52,7 +52,7 @@ public class MainActivity extends AppCompatActivity {
                     resultado = "Esta en Obesidad";
                 }
 
-                lblResultado.setText("Bienvenido " + nombre + " al calculo de IMC, su peso en Kg es de " + String.format("%.2f", imc) + " su estatura en Metros es de "+altura+" por lo que su resultado en este calculo de IMC es que usted " + resultado + ".");
+                lblResultado.setText("Bienvenido " + nombre + " al calculo de IMC, su peso en Kg es de " +peso + " su estatura en Metros es de "+altura+" por lo que su resultado en este calculo de IMC" + String.format("%.2f", imc)+" eso quiere decir que usted " + resultado + ".");
 
             }
         });
